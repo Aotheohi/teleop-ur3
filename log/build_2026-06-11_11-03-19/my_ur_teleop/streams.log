@@ -1,0 +1,176 @@
+[0.446s] Invoking command in '/home/vinh/teleop_ros_ws/src/my_ur_teleop': PYTHONPATH=/home/vinh/teleop_ros_ws/build/my_ur_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ur_teleop build --build-base /home/vinh/teleop_ros_ws/build/my_ur_teleop/build install --record /home/vinh/teleop_ros_ws/build/my_ur_teleop/install.log --single-version-externally-managed install_data
+[0.605s] running egg_info
+[0.605s] creating ../../build/my_ur_teleop/my_ur_teleop.egg-info
+[0.605s] writing ../../build/my_ur_teleop/my_ur_teleop.egg-info/PKG-INFO
+[0.606s] writing dependency_links to ../../build/my_ur_teleop/my_ur_teleop.egg-info/dependency_links.txt
+[0.606s] writing entry points to ../../build/my_ur_teleop/my_ur_teleop.egg-info/entry_points.txt
+[0.606s] writing requirements to ../../build/my_ur_teleop/my_ur_teleop.egg-info/requires.txt
+[0.606s] writing top-level names to ../../build/my_ur_teleop/my_ur_teleop.egg-info/top_level.txt
+[0.606s] writing manifest file '../../build/my_ur_teleop/my_ur_teleop.egg-info/SOURCES.txt'
+[0.607s] reading manifest file '../../build/my_ur_teleop/my_ur_teleop.egg-info/SOURCES.txt'
+[0.608s] writing manifest file '../../build/my_ur_teleop/my_ur_teleop.egg-info/SOURCES.txt'
+[0.608s] running build
+[0.608s] running build_py
+[0.608s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build
+[0.608s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib
+[0.608s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/ur3_subscriber.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/mujoco_ur3_node.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/feetech_publisher.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/__init__.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/cv_detection_node.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/vision_motion_node.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.608s] copying my_ur_teleop/feetech_publisher_sim.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.609s] copying my_ur_teleop/mujoco_sim_node.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.609s] copying my_ur_teleop/mujoco_subscriber_sim.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop
+[0.609s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware
+[0.609s] copying my_ur_teleop/hardware/feetech.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware
+[0.609s] copying my_ur_teleop/hardware/__init__.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware
+[0.609s] copying my_ur_teleop/hardware/robot.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware
+[0.609s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/__init__.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech
+[0.609s] creating /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_write.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/hls.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_read.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/protocol_packet_handler.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/__init__.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/port_handler.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/scscl.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/sms_sts.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] copying my_ur_teleop/hardware/driver_feetech/scservo_sdk/scservo_def.py -> /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.609s] running install
+[0.609s] running install_lib
+[0.610s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/ur3_subscriber.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/mujoco_ur3_node.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/feetech_publisher.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/__init__.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.610s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/feetech.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware
+[0.610s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/__init__.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech
+[0.610s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_write.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/hls.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_read.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/protocol_packet_handler.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/__init__.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/port_handler.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/scscl.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/sms_sts.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.610s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/driver_feetech/scservo_sdk/scservo_def.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/__init__.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/hardware/robot.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/cv_detection_node.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/vision_motion_node.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/feetech_publisher_sim.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/mujoco_sim_node.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.611s] copying /home/vinh/teleop_ros_ws/build/my_ur_teleop/build/lib/my_ur_teleop/mujoco_subscriber_sim.py -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop
+[0.611s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/ur3_subscriber.py to ur3_subscriber.cpython-310.pyc
+[0.612s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/mujoco_ur3_node.py to mujoco_ur3_node.cpython-310.pyc
+[0.613s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/feetech_publisher.py to feetech_publisher.cpython-310.pyc
+[0.613s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/__init__.py to __init__.cpython-310.pyc
+[0.613s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/feetech.py to feetech.cpython-310.pyc
+[0.614s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/__init__.py to __init__.cpython-310.pyc
+[0.614s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_write.py to group_sync_write.cpython-310.pyc
+[0.614s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/hls.py to hls.cpython-310.pyc
+[0.615s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/group_sync_read.py to group_sync_read.cpython-310.pyc
+[0.615s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/protocol_packet_handler.py to protocol_packet_handler.cpython-310.pyc
+[0.617s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/__init__.py to __init__.cpython-310.pyc
+[0.617s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/port_handler.py to port_handler.cpython-310.pyc
+[0.618s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/scscl.py to scscl.cpython-310.pyc
+[0.618s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/sms_sts.py to sms_sts.cpython-310.pyc
+[0.619s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/driver_feetech/scservo_sdk/scservo_def.py to scservo_def.cpython-310.pyc
+[0.619s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/__init__.py to __init__.cpython-310.pyc
+[0.619s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/hardware/robot.py to robot.cpython-310.pyc
+[0.619s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/cv_detection_node.py to cv_detection_node.cpython-310.pyc
+[0.620s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/vision_motion_node.py to vision_motion_node.cpython-310.pyc
+[0.620s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/feetech_publisher_sim.py to feetech_publisher_sim.cpython-310.pyc
+[0.621s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/mujoco_sim_node.py to mujoco_sim_node.cpython-310.pyc
+[0.622s] byte-compiling /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop/mujoco_subscriber_sim.py to mujoco_subscriber_sim.cpython-310.pyc
+[0.622s] running install_data
+[0.622s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/ament_index
+[0.622s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/ament_index/resource_index
+[0.622s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/ament_index/resource_index/packages
+[0.622s] copying resource/my_ur_teleop -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/ament_index/resource_index/packages
+[0.622s] copying package.xml -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop
+[0.622s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models
+[0.622s] copying models/scene.xml -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models
+[0.622s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e
+[0.623s] copying models/ur3e/ur3e.xml -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e
+[0.623s] copying models/ur3e/README.md -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e
+[0.623s] copying models/ur3e/LICENSE.txt -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e
+[0.623s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.623s] copying models/ur3e/assets/shoulder_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.628s] copying models/ur3e/assets/forearm_3.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.631s] copying models/ur3e/assets/wrist2_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.633s] copying models/ur3e/assets/wrist1_2.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.634s] copying models/ur3e/assets/wrist2_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.634s] copying models/ur3e/assets/forearm_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.635s] copying models/ur3e/assets/forearm_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.636s] copying models/ur3e/assets/wrist1_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.639s] copying models/ur3e/assets/base_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.640s] copying models/ur3e/assets/wrist1_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.641s] copying models/ur3e/assets/upperarm_2.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.645s] copying models/ur3e/assets/shoulder_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.645s] copying models/ur3e/assets/upperarm_1.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.652s] copying models/ur3e/assets/wrist3.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.652s] copying models/ur3e/assets/wrist2_2.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.655s] copying models/ur3e/assets/shoulder_2.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.656s] copying models/ur3e/assets/upperarm_3.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.656s] copying models/ur3e/assets/upperarm_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.657s] copying models/ur3e/assets/base_0.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.658s] copying models/ur3e/assets/forearm_2.obj -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/assets
+[0.659s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.659s] copying models/ur3e/.git/packed-refs -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.659s] copying models/ur3e/.git/HEAD -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.659s] copying models/ur3e/.git/index -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.659s] copying models/ur3e/.git/description -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.660s] copying models/ur3e/.git/config -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git
+[0.660s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/objects
+[0.660s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/objects/pack
+[0.660s] copying models/ur3e/.git/objects/pack/pack-b39cd12cc1ba7a37028734cf73efe785c27b5063.idx -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/objects/pack
+[0.660s] copying models/ur3e/.git/objects/pack/pack-b39cd12cc1ba7a37028734cf73efe785c27b5063.pack -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/objects/pack
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/info
+[0.664s] copying models/ur3e/.git/info/exclude -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/info
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs/heads
+[0.664s] copying models/ur3e/.git/refs/heads/main -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs/heads
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs/remotes
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs/remotes/origin
+[0.664s] copying models/ur3e/.git/refs/remotes/origin/HEAD -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/refs/remotes/origin
+[0.664s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.664s] copying models/ur3e/.git/hooks/push-to-checkout.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.664s] copying models/ur3e/.git/hooks/update.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-merge-commit.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-applypatch.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/post-update.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-push.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-commit.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-rebase.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/pre-receive.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/applypatch-msg.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/fsmonitor-watchman.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/prepare-commit-msg.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] copying models/ur3e/.git/hooks/commit-msg.sample -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/hooks
+[0.665s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs
+[0.665s] copying models/ur3e/.git/logs/HEAD -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs
+[0.665s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs
+[0.665s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs/heads
+[0.666s] copying models/ur3e/.git/logs/refs/heads/main -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs/heads
+[0.666s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs/remotes
+[0.666s] creating /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs/remotes/origin
+[0.666s] copying models/ur3e/.git/logs/refs/remotes/origin/HEAD -> /home/vinh/teleop_ros_ws/install/my_ur_teleop/share/my_ur_teleop/models/ur3e/.git/logs/refs/remotes/origin
+[0.666s] running install_egg_info
+[0.667s] Copying ../../build/my_ur_teleop/my_ur_teleop.egg-info to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages/my_ur_teleop-0.0.0-py3.10.egg-info
+[0.667s] running install_scripts
+[0.681s] Installing cv_detection_node script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing feetech_ctrl script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing feetech_mujoco script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing mujoco_sim script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing ur3_teleop script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing ur3_teleop_sim script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.681s] Installing vision_motion_node script to /home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/my_ur_teleop
+[0.682s] writing list of installed files to '/home/vinh/teleop_ros_ws/build/my_ur_teleop/install.log'
+[0.696s] Invoked command in '/home/vinh/teleop_ros_ws/src/my_ur_teleop' returned '0': PYTHONPATH=/home/vinh/teleop_ros_ws/build/my_ur_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinh/teleop_ros_ws/install/my_ur_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ur_teleop build --build-base /home/vinh/teleop_ros_ws/build/my_ur_teleop/build install --record /home/vinh/teleop_ros_ws/build/my_ur_teleop/install.log --single-version-externally-managed install_data
